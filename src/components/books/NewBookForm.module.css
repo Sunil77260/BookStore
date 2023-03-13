@@ -1,0 +1,51 @@
+.card {
+  margin: 25%;
+  margin-top: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.form label {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cancel {
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(215, 67, 17);
+  border-radius: 20px;
+  border: none;
+}
+.cancel:hover {
+  background-color: rgb(234, 194, 180);
+  cursor: pointer;
+}
+.add {
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(51, 210, 30);
+  border: none;
+}
+.add:hover {
+  background-color: rgb(162, 225, 154);
+  cursor: pointer;
+}

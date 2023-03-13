@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.2rem;
+  margin: 20px;
+}
+.image img {
+  height: 250px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 30px;
+}
+
+.delete {
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(215, 67, 17);
+  border-radius: 20px;
+  border: none;
+}
+.delete:hover {
+  background-color: rgb(234, 194, 180);
+  cursor: pointer;
+}
+.update {
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(51, 210, 30);
+  border: none;
+}
+.update:hover {
+  background-color: rgb(162, 225, 154);
+  cursor: pointer;
+}
